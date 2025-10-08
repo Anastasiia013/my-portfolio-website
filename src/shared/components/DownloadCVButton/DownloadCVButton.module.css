@@ -1,0 +1,29 @@
+.download {
+    background-color: var(--color-accent-blue);
+    color: var(--color-text-secondary);
+    border: none;
+    border-radius: 6px;
+    padding: 8px 18px;
+    font-size: 16px;
+    font-weight: 500;
+    cursor: pointer;
+    box-shadow: 0 2px 6px var(--color-shadow);
+    transition: all 0.3s ease;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6px;
+}
+
+.download:hover {
+    background-color: var(--color-hover);
+    box-shadow: 0 4px 12px var(--color-hover-bigger);
+    transform: translateY(-2px);
+}
+
+@media (max-width: 680px) {
+    .download svg {
+        display: none;
+    }
+}

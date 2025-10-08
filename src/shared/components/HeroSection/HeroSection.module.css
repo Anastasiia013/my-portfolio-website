@@ -1,0 +1,129 @@
+.heroContent {
+    display: flex;
+    align-items: start;
+    justify-content: space-between;
+    gap: 60px;
+    cursor: default;
+    padding: 20px 0px;
+}
+
+.textBlock {
+    flex: 1;
+    min-width: 320px;
+    max-width: 70%;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.title {
+    font-size: var(--text-size-h3);
+}
+
+.textBlock p {
+    font-size: var(--text-size-normal);
+    line-height: 1.6;
+    color: var(--color-main-text);
+}
+
+.addictionalInfo {
+    display: flex;
+    gap: 40px;
+    margin-top: 36px;
+}
+
+.addictionalInfo div {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    font-weight: 500;
+    color: var(--color-addictioanl-text);
+}
+
+.addictionalInfo img {
+    width: 20px;
+    height: 20px;
+}
+
+.quickLinks {
+    display: flex;
+    gap: 20px;
+    margin: 20px 0px;
+}
+
+.quickLinks a {
+    width: 32px;
+    height: 32px;
+    transition: transform 0.2s ease, opacity 0.2s ease;
+}
+
+.quickLinks a:hover {
+    transform: translateY(-2px);
+}
+
+.imageWrapper {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.imageWrapper img {
+    width: 100%;
+    height: auto;
+    border-radius: 12px;
+    box-shadow: 0 6px 20px var(--color-shadow);
+    object-fit: cover;
+}
+
+.linksWrapper {
+    flex: 0 0 300px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 10px;
+}
+
+@media (max-width: 530px) {
+    .heroContent {
+        flex-direction: column;
+        gap: 20px;
+        align-items: center;
+        padding: 10px 0;
+    }
+
+    .textBlock {
+        max-width: 100%;
+        min-width: auto;
+        gap: 12px;
+    }
+
+    .textBlock p {
+        line-height: 1.4;
+    }
+
+    .addictionalInfo {
+        flex-direction: column;
+        align-items: start;
+        gap: 12px;
+        margin-top: 10px;
+    }
+
+    .addictionalInfoItem{
+       padding-left: 3px;
+    }
+
+    .quickLinks {
+        margin: 10px 0;
+        gap: 16px;
+    }
+
+    .linksWrapper {
+        flex: none;
+        width: 100%;
+        align-items: center;
+    }
+
+    .imageWrapper img {
+        max-width: 200px;
+    }
+}

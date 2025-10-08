@@ -1,0 +1,60 @@
+:root {
+    --color-main-background: #f5f7fa;
+    --color-main-text: #2c3e50;
+    --color-addictioanl-text: #34495e;
+    --color-accent-blue: #0370b8;
+
+    --color-bg-secondary: #ffffff;
+    --color-bg-footer: #312f3a;
+    --color-text-secondary: #ffffff;
+    --color-border: #d5d8dc;
+    --color-shadow: rgba(0, 0, 0, 0.15);
+    --text-shadow: rgba(0, 0, 0, 0.1);
+
+    --font-main: "Nunito", sans-serif;
+
+    --color-hover: #025a9e;
+    --color-hover-bigger: rgba(0, 0, 0, 0.2);
+    --color-disabled: #9aa0a6;
+    --color-error: #ff6b6b;
+
+    --color-header-text: rgb(121, 121, 121);
+    --color-grey-hover: #f5f2f2;
+    --header-scrolled-color: rgba(255, 255, 255, 0.8);
+    --header-box-shadow: rgba(0, 0, 0, 0.08);
+    --color-modal-button: rgba(0, 0, 0, 0.5);
+
+    --text-size-h2: 3rem;
+    /* 48px */
+    --text-size-h2-mobile: 2rem;
+    --text-size-h3: 1.625rem;
+    /* 26px */
+    --text-size-normal: 1.125rem;
+    /* 18px */
+}
+
+
+/* Тёмная тема */
+[data-theme="dark"] {
+    --color-main-background: #1e1f22;
+    --color-main-text: #e8ecf0;
+    --color-addictioanl-text: #c5c9d0;
+    --color-accent-blue: #8a63c1;
+
+    --color-bg-secondary: #2b2d31;
+    --color-bg-footer: #312f3a;
+    --color-text-secondary: #ffffff;
+    --color-border: #3c3f44;
+    --color-shadow: rgba(0, 0, 0, 0.4);
+    --text-shadow: rgba(0, 0, 0, 0.3);
+
+    --color-hover: #6738b9;
+    --color-hover-bigger: rgba(255, 255, 255, 0.2);
+    --color-disabled: #6c757d;
+
+    --color-header-text: #aab0b8;
+    --color-grey-hover: #b58ff5;
+    --header-scrolled-color: rgba(49, 47, 58, 0.8);
+    --header-box-shadow: rgba(0, 0, 0, 0.5);
+    --color-modal-button: rgba(255, 255, 255, 0.2);
+}

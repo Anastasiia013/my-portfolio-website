@@ -1,0 +1,128 @@
+.projectsContainer {
+    padding-bottom: 40px;
+}
+
+.portfolioPage {
+    padding: 60px 20px;
+    animation: fadeIn 1s ease-in-out;
+}
+
+.card {
+    display: flex;
+    flex-direction: row;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+
+.imagesBlock {
+    display: flex;
+    gap: 10px;
+    height: 360px;
+    width: max-content;
+    overflow: hidden;
+    position: relative;
+}
+
+.webImage {
+    width: 100%;
+    max-width: 760px;
+    height: auto;
+    cursor: pointer;
+    object-fit: cover;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+    display: block;
+}
+
+.webImage:hover {
+    transform: scale(1.02);
+}
+
+.cardContent {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 6px;
+}
+
+.cardContent p:first-child {
+    font-weight: 600;
+}
+
+.description {
+    font-size: 1rem;
+    line-height: 1.6;
+}
+
+.addtext {
+    font-size: 0.95rem;
+    color: var(--color-addictioanl-text);
+    margin-top: 6px;
+    line-height: 1.5;
+}
+
+.links {
+    margin-top: 10px;
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    flex-wrap: wrap;
+}
+
+.projectLink {
+    text-decoration: none;
+    color: var(--color-accent-blue);
+    font-weight: 600;
+    transition: color 0.3s ease;
+}
+
+.projectLink:hover {
+    color: var(--color-hover);
+}
+
+@media (max-width: 900px) {
+    .card {
+        flex-direction: column;
+    }
+
+    .imagesBlock {
+        flex-direction: row;
+        gap: 10px;
+        flex: 1;
+    }
+
+    .webImage {
+        max-width: 96vw;
+    }
+}
+
+.modal {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100vw;
+    height: 100vh;
+    background: var(--header-box-shadow);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 1000;
+    cursor: pointer;
+}
+
+.modalContent {
+    max-width: 90%;
+    max-height: 90%;
+    cursor: default;
+    overflow: auto;
+    padding: 10px;
+    background: var(--color-bg-secondary);
+    border-radius: 8px;
+}
+
+.modalContent img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}

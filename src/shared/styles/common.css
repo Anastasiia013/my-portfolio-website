@@ -1,0 +1,13 @@
+body {
+    display: flex;
+    flex-direction: column;
+    height: 100vh;
+    font-size: 18px;
+    list-style: none;
+    text-decoration: none;
+    font-family: "Nunito Sans", sans-serif;
+    overflow-x: hidden;
+
+    background-color: var(--color-main-background);
+    color: var(--color-main-text);
+}
