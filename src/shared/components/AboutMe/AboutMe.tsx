@@ -45,11 +45,12 @@ const AboutMe = () => {
         </div>
 
         <div className={styles.text}>
+          <h2 className={styles.textIntro}>{aboutText.intro}</h2>
           {aboutText.description.map((line, idx) =>
             line.includes("—") ? (
-              <li key={idx}>{line}</li>
+              <li key={idx} dangerouslySetInnerHTML={{ __html: line }} />
             ) : (
-              <p key={idx}>{line}</p>
+              <p key={idx} dangerouslySetInnerHTML={{ __html: line }} />
             )
           )}
         </div>

@@ -7,8 +7,12 @@
     width: 100%;
 }
 
+.textIntro{
+    font-size: var(--text-size-h3);
+}
+
 .text {
-    flex: 1;
+    flex: 2;
     font-size: var(--text-size-normal);
     line-height: 1.6;
     color: var(--color-main-text);
@@ -119,6 +123,7 @@
     .imageWrapper {
         width: 220px;
         margin-top: 20px;
+        flex: 1;
     }
 
     .aboutMe {

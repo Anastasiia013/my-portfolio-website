@@ -20,12 +20,12 @@ export const texts = {
     },
     about: {
       title: "About Me",
+      intro:
+        "I`m a career switcher — moved from journalism to web development after discovering how much I enjoy creating things that actually work.",
       description: [
-        "I’m a career changer moving from journalism to web development. Currently completed an intensive fullstack training focused on JavaScript, TypeScript, Node.js, React, MongoDB and PostgreSQL/MySQL.",
-        "My key projects:",
-        "• Responsive pet webshop — React & Redux;",
-        "• Fullstack photo-sharing platform — Node.js, TypeScript & MongoDB;",
-        "I have a keen eye for clean code, structure, and usability. Looking for a part-time or remote role in Graz/Klagenfurt area in Austria where I can continue to grow and contribute to a team.",
+        "• Completed an <strong>intensive fullstack training</strong> focused on JavaScript, TypeScript, React, Node.js, MongoDB and PostgreSQL/MySQL.",
+        "• I value <strong>clean code, structure, and usability</strong> — the small details that make a big difference.",
+        "• Looking for a <strong>full-time or hybrid position</strong> in the Graz/Klagenfurt area (Austria) to keep learning, building and collaborating.",
       ],
     },
     projects: {
@@ -92,15 +92,16 @@ export const texts = {
       availability: "Für neue Projekte verfügbar",
     },
     about: {
-      title: "Über Mich",
+      title: "Über mich",
+      intro:
+        "Ich bin eine <strong>Quereinsteigerin</strong> — habe den Journalismus gegen die Webentwicklung getauscht, nachdem ich entdeckt habe, wie sehr es mich erfüllt, Dinge zu schaffen, die wirklich funktionieren.",
       description: [
-        "Ich habe von Journalismus zu Webentwicklung gewechselt. Habe kürzlich eine intensive Fullstack-Ausbildung abgeschlossen, die sich auf JavaScript, TypeScript, Node.js, React, MongoDB und PostgreSQL/MySQL konzentriert.",
-        "Meine wichtigsten Projekte:",
-        "• Responsiver Tier Waren Webshop — React & Redux;",
-        "• Fullstack Foto-Sharing Plattform — Node.js, TypeScript & MongoDB;",
-        "Ich achte auf sauberen Code, Struktur und Benutzerfreundlichkeit. Suche eine Teilzeit- oder Remote-Stelle im Raum Graz/Klagenfurt in Österreich, um weiter zu wachsen und im Team beizutragen.",
+        "• Abgeschlossenes <strong>intensives Fullstack-Training</strong> mit Fokus auf JavaScript, TypeScript, React, Node.js, MongoDB und PostgreSQL/MySQL.",
+        "• Ich lege Wert auf <strong>sauberen Code, klare Struktur und Benutzerfreundlichkeit</strong> — die kleinen Details machen oft den größten Unterschied.",
+        "• Suche eine <strong>Vollzeit- oder Hybrid-Stelle</strong> im Raum Graz/Klagenfurt (Österreich), um weiter zu lernen, zu entwickeln und im Team beizutragen.",
       ],
     },
+
     projects: {
       title: "Meine Projekte",
       moreInfo: "Für weitere Informationen oder Live-Vorschau:",
