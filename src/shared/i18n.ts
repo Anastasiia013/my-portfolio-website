@@ -94,7 +94,7 @@ export const texts = {
     about: {
       title: "Über mich",
       intro:
-        "Ich bin eine <strong>Quereinsteigerin</strong> — habe den Journalismus gegen die Webentwicklung getauscht, nachdem ich entdeckt habe, wie sehr es mich erfüllt, Dinge zu schaffen, die wirklich funktionieren.",
+        "Ich bin eine Quereinsteigerin — habe den Journalismus gegen die Webentwicklung getauscht, nachdem ich entdeckt habe, wie sehr es mich erfüllt, Dinge zu schaffen, die wirklich funktionieren.",
       description: [
         "• Abgeschlossenes <strong>intensives Fullstack-Training</strong> mit Fokus auf JavaScript, TypeScript, React, Node.js, MongoDB und PostgreSQL/MySQL.",
         "• Ich lege Wert auf <strong>sauberen Code, klare Struktur und Benutzerfreundlichkeit</strong> — die kleinen Details machen oft den größten Unterschied.",
